@@ -1,0 +1,22 @@
+/* Root variables */
+:root {
+  --font-family: "Winky Sans", sans-serif;
+  --background-color: #1b2838;
+  --font-weight: 300;
+}
+
+/* Global Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family) ;
+  font-weight: var(--font-weight);
+}
+
+/* Body Styling */
+body {
+  min-height: 100vh;
+  background-color:var(--background-color);
+}
+

@@ -1,0 +1,128 @@
+.register-content{
+    height: 100vh;
+    background: linear-gradient(90deg,
+    rgba(0, 0, 0, 0.5) 4%,
+    #212429 25%), 
+     url(/assets/background.jpg) no-repeat center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.create-acc-page{
+    width: 100%;
+    width: 950px;
+    margin: 0 auto;
+}
+
+.create-acc-content{
+    padding: 50px;
+    min-height: 600px;
+    max-width: 700px;
+}
+
+.join-form{
+    padding: 20px 16px;
+}
+
+.section-title{
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 34px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.row-flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-row{
+    margin: 25px 0;
+}
+
+.register-btn{
+    margin-top: 35px;
+}
+
+.form-area label,
+.checkbox-text label{
+    font-size: 14px;
+    color: #b8b6b4;
+    vertical-align: top;
+}
+
+.checkbox-text{
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.checkbox-text input[type="checkbox"]{
+    display: inline;
+    width: 18px;
+    height: 18px;
+    background: #32353C;
+    cursor: pointer;
+}
+
+.checkbox-text label b{
+    color: #ffffff;
+}
+
+.form-area{
+    width: 292px;
+    width: 100%;
+}
+
+.form-area input {
+    background: #32353C;
+    border-radius: 3px;
+    color: #E9E9E9;
+    padding: 8px 6px;
+    display: block;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    transition: border ease-in-out .5s;
+}
+
+.field-message{
+    color: #fff;
+    border: 2px solid #b44040;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: rgba( 0, 0, 0, .5 );
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .create-acc-content {
+      padding: 30px;
+    }
+  
+    .form-area {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .register-content {
+      padding: 20px;
+    }
+  
+    .create-acc-content {
+      padding: 20px;
+    }
+  
+    .section-title {
+      font-size: 28px;
+    }
+  }

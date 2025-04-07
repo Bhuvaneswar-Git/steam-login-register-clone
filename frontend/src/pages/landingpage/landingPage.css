@@ -1,0 +1,30 @@
+.content{
+    height: 100dvh;
+}
+
+.welcome-content{
+    background-color:#171d25;
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.welcome-content h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.welcome-content img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .welcome-content {
+        width: 90%;
+        max-width: 400px;
+    }
+}

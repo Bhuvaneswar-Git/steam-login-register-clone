@@ -1,0 +1,45 @@
+.sign-in-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 200px;
+    background: linear-gradient(90deg, #06bfff 0%, #2d73ff 100%);
+    color: #fff !important;
+    margin-top: 1rem;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none !important;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+}
+
+.sign-in-btn:hover{
+    background: linear-gradient(90deg, #06bfff 30%, #2d73ff 100%);
+}
+
+.create-acc-btn{
+    height: 35px;
+    margin: 10px 0 10px 0;
+    padding: 3px 20px;
+    border-radius: 2px;
+    font-size: 15px;
+    line-height: 30px;
+    cursor: pointer
+}
+
+
+.register-style-btn{
+    height: 35px;
+    width: 165px;
+    /* margin: 10px 0 10px 0; */
+    padding: 3px 20px;
+    border-radius: 2px;
+    font-size: 15px;
+    line-height: 30px;
+    cursor: pointer
+}

@@ -1,0 +1,47 @@
+.title-home{
+    color: #fff;
+    padding-top: 20px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.poster {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;  
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.poster-img {
+    flex: 1; /* Makes each image take equal space */
+    max-width: 200px; /* Controls image width on large screens */
+    text-align: center; /* Centers images */
+}
+
+.poster-img img {
+    width: 100%;
+    max-width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .poster {
+        flex-direction: column; /* Stack images in a column */
+        align-items: center;
+    }
+    
+    .poster-img {
+        max-width: 100%; /* Allow full width on small screens */
+    }
+    
+    .poster-img img {
+        max-width: 90%; /* Reduce image size for better fit */
+        height: auto;
+    }
+}

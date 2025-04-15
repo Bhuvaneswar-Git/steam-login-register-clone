@@ -43,8 +43,8 @@
 steam-clone/
 ├── frontend/      # React + Vite app
 ├── backend/       # Express server and auth logic
-└── git.ignore
-└──LICIENCE
+└── .gitignore
+└── LICENSE.txt
 └── README.md
 ```
 ---

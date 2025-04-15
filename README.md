@@ -43,6 +43,8 @@
 steam-clone/
 ├── frontend/      # React + Vite app
 ├── backend/       # Express server and auth logic
+└── git.ignore
+└──LICIENCE
 └── README.md
 ```
 ---
@@ -53,7 +55,7 @@ steam-clone/
 ```bash
 # Clone the repository
 git clone https://github.com/Bhuvaneswar-Git/steam-login-register-clone.git
-cd steam-auth-clone
+cd steam-login-register-clone
 ```
 
 ### Setup Frontend
